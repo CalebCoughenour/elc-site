@@ -5,11 +5,12 @@ import Row from 'react-bootstrap/Row';
 import { FaTwitter, FaYoutube } from 'react-icons/fa';
 
 
-function Footer() {
+const Footer = () => {
   return (
+    <>
     <FooterSection>
-      <Container style={{ background: '#A4A5A5', textAlign: 'center'}}>
-        <Row style={{ background: '#A4A5A5'}}>
+      <Container style={{ background: '#1D1A1A', textAlign: 'center'}}>
+        <Row style={{ background: '#1D1A1A'}}>
 
           {/* Footer links */}
           {/* <FooterLink href='/'>Home</FooterLink>
@@ -17,20 +18,21 @@ function Footer() {
           <FooterLink href='/research'>Research</FooterLink> */}
 
           {/* Footer Text */}
-          <FooterName>Created By: BelacCoke</FooterName>
+          <FooterName href={'//www.twitter.com/belaccoke'} target="_blank" rel="noopener noreferrer">Created By: BelacCoke</FooterName>
 
           {/* Social Links */}
           <SocialIconLink href={'//www.twitter.com/belaccoke'} target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-            <FaTwitter style={{ background: '#A4A5A5'}} />
+            <FaTwitter style={{ background: '#1D1A1A'}} />
           </SocialIconLink>
           <SocialIconLink href={'//www.youtube.com/channel/UCMsqHdA66Awh_ljOYV8iKkQ'} target="_blank" rel="noopener noreferrer" aria-label="Youtube">
-            <FaYoutube style={{ background: '#A4A5A5'}} />
+            <FaYoutube style={{ background: '#1D1A1A'}} />
           </SocialIconLink>
 
 
         </Row>
       </Container>
     </FooterSection>
+    </>
   );
 }
 
