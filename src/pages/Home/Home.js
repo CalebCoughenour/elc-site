@@ -1,11 +1,12 @@
 import React from 'react';
-import { BannerSection } from '../../components';
+import { BannerSection, MissionSection } from '../../components';
 
 
 const Home = () => {
   return (
     <>
       <BannerSection />
+      <MissionSection />
     </>
   )
 }
