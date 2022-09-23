@@ -1,12 +1,14 @@
 import React from 'react';
-import { BannerSec } from './BannerSection.elements';
+import { BannerImg, BannerSec } from './BannerSection.elements';
 
 
-function BannerSection() {
+const BannerSection = () => {
   return (
-    <BannerSec>
-
-    </BannerSec>
+    <>
+      <BannerSec>
+        <BannerImg src='images/homepage/elc-banner.png' alt="Everyone Loves Crypto Banner" />
+      </BannerSec>
+    </>
   );
 }
 
