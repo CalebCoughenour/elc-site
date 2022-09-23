@@ -1,14 +1,33 @@
 import React from 'react';
-import { TopNavSection, TopNavTitle, TopNavLink } from './TopNav.elements';
+import { TopNavSection, SocialIconLink, TopNavLink } from './TopNav.elements';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import { FaTwitter, FaYoutube } from 'react-icons/fa';
 
 
 function TopNav() {
   return (
     <TopNavSection>
-      <TopNavTitle href='/'>ELC</TopNavTitle>
-      <TopNavLink href='/'>Home</TopNavLink>
-      <TopNavLink href='/videos'>Videos</TopNavLink>
-      <TopNavLink href='/research'>Research</TopNavLink>
+      <Container style={{ background: '#A4A5A5'}}>
+        <Row style={{ background: '#A4A5A5', textAlign: 'center'}}>
+
+          {/* Nav links */}
+          <TopNavLink href='/'>Home</TopNavLink>
+          <TopNavLink href='/videos'>Videos</TopNavLink>
+          <TopNavLink href='/research'>Research</TopNavLink>
+
+          {/* Social Links */}
+          <SocialIconLink href={'//www.twitter.com/belaccoke'} target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+            <FaTwitter style={{ background: '#A4A5A5'}} />
+          </SocialIconLink>
+          <SocialIconLink href={'//www.youtube.com/channel/UCMsqHdA66Awh_ljOYV8iKkQ'} target="_blank" rel="noopener noreferrer" aria-label="Youtube">
+            <FaYoutube style={{ background: '#A4A5A5'}} />
+          </SocialIconLink>
+
+
+        </Row>
+      </Container>
     </TopNavSection>
   );
 }
