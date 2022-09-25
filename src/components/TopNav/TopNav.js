@@ -12,19 +12,21 @@ function TopNav() {
       <Container style={{ background: '#1D1A1A'}}>
         <Row style={{ background: '#1D1A1A', textAlign: 'center'}}>
 
-          {/* Nav links */}
-          <TopNavLink href='/'>Home</TopNavLink>
-          <TopNavLink href='/videos'>Videos</TopNavLink>
-          <TopNavLink href='/research'>Research</TopNavLink>
-          <TopNavLink href='/'></TopNavLink>
+          <Col>
+            {/* Nav links */}
+            <TopNavLink href='/'>Home</TopNavLink>
+            <TopNavLink href='/videos'>Videos</TopNavLink>
+            <TopNavLink href='/research'>Research</TopNavLink>
+            <TopNavLink href='/'></TopNavLink>
 
-          {/* Social Links */}
-          <SocialIconLink href={'//www.twitter.com/belaccoke'} target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-            <FaTwitter style={{ background: '#1D1A1A'}} />
-          </SocialIconLink>
-          <SocialIconLink href={'//www.youtube.com/channel/UCMsqHdA66Awh_ljOYV8iKkQ'} target="_blank" rel="noopener noreferrer" aria-label="Youtube">
-            <FaYoutube style={{ background: '#1D1A1A'}} />
-          </SocialIconLink>
+            {/* Social Links */}
+            <SocialIconLink href={'//www.twitter.com/belaccoke'} target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+              <FaTwitter style={{ background: '#1D1A1A'}} />
+            </SocialIconLink>
+            <SocialIconLink href={'//www.youtube.com/channel/UCMsqHdA66Awh_ljOYV8iKkQ'} target="_blank" rel="noopener noreferrer" aria-label="Youtube">
+              <FaYoutube style={{ background: '#1D1A1A'}} />
+            </SocialIconLink>
+          </Col>
 
 
         </Row>
