@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import { Home, Videos, Research } from "./pages";
 import { TopNav, Footer } from "./components";
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   return (
