@@ -6,7 +6,7 @@ const BannerSection = () => {
   return (
     <>
       <BannerSec>
-        <BannerImg src='images/homepage/elc-banner.png' alt="Everyone Loves Crypto Banner" />
+        <BannerImg src='images/homepage/elc-banner.webp' alt="Everyone Loves Crypto Banner" />
       </BannerSec>
     </>
   );
