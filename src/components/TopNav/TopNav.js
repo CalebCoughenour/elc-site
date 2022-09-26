@@ -17,7 +17,7 @@ function TopNav() {
             <TopNavLink href='/'>Home</TopNavLink>
             <TopNavLink href='/videos'>Videos</TopNavLink>
             <TopNavLink href='/research'>Research</TopNavLink>
-            <TopNavLink href='/'></TopNavLink>
+            <TopNavLink href='/news'>News</TopNavLink>
 
             {/* Social Links */}
             <SocialIconLink href={'//www.twitter.com/belaccoke'} target="_blank" rel="noopener noreferrer" aria-label="Twitter">
