@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const MissionSec = styled.div`
-  padding: 100px 0px;
   background: #383232;
 `;
 
@@ -30,9 +29,12 @@ export const MissionTextSection = styled.div`
 `;
 
 export const MissionText = styled.h1`
-  margin-left: 5px;
-  font-size: 60px;
-  text-align: left;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 55px;
+  text-align: center;
   color: #DCDCDE;
   @media screen and (max-width: 770px) {
     font-size: 20px;
