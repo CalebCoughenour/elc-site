@@ -55,6 +55,7 @@ export const Media = styled.video`
   margin-top: 10px;
   margin-right: 20px;
   background: #383232;
+  border-radius: 5px;
 
   @media screen and (min-width: 600px) {
     float: left;

@@ -20,7 +20,7 @@ export const MissionTextSection = styled.div`
 export const MissionText = styled.h1`
   margin-right: 20px;
   font-size: 55px;
-  text-align: left;
+  text-align: center;
   color: #DCDCDE;
 
   @media screen and (max-width: 1100px) {
@@ -51,6 +51,7 @@ export const Media = styled.img`
   margin-right: 20px;
   margin-left: 20px;
   background: #383232;
+  border-radius: 5px;
 
   @media screen and (min-width: 600px) {
     float: right;
