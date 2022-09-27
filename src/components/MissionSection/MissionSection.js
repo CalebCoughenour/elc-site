@@ -18,20 +18,18 @@ const MissionSection = ({ sectionText, media, alt }) => {
         <MissionSec>          
           <Container>
             <div data-aos="fade-left">
-              <Card style={{ background: '#383232', padding: '50px 0px', border: 'none'}}>
-                <Row>
-                  <Col md={true}>
-                    <MissionTextSection style={{ position: 'relative'}}>
-                      <Container>                 
-                        <Media src={media} alt={alt} autoPlay muted loop />
-                        <MissionText>
-                          {sectionText}
-                        </MissionText>
-                      </Container>
-                    </MissionTextSection>
-                  </Col>  
-                </Row>
-              </Card>
+              <Row>
+                <Col md={true}>
+                  <MissionTextSection style={{ position: 'relative'}}>
+                    <Container>                 
+                      <Media src={media} alt={alt} autoPlay muted loop />
+                      <MissionText>
+                        {sectionText}
+                      </MissionText>
+                    </Container>
+                  </MissionTextSection>
+                </Col>  
+              </Row>
             </div>
           </Container>
       </MissionSec>
