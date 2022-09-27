@@ -7,10 +7,12 @@ const Home = () => {
   return (
     <>
       <BannerSection />
-      <MissionSection {...missionObjOne} />
-      <MissionSectionRight {...missionObjTwo} />
-      <MissionSection {...missionObjThree} />
-      <MissionSectionRight {...missionObjFour} />
+      <div style={{ background: '#383232' }} >
+        <MissionSection {...missionObjOne} />
+        <MissionSectionRight {...missionObjTwo} />
+        <MissionSection {...missionObjThree} />
+        <MissionSectionRight {...missionObjFour} />
+      </div>
     </>
   )
 }
