@@ -9,21 +9,35 @@ export const MissionTextSection = styled.div`
 `;
 
 export const MissionText = styled.h1`
-  margin: 0;
+  margin-right: 20px;
   position: absolute;
   top: 50%;
   right: 50%;
-  font-size: 60px;
-  text-align: center;
+  font-size: 55px;
+  text-align: left;
   color: #DCDCDE;
+
+  @media screen and (max-width: 1100px) {
+    font-size: 45px;
+  }
+
   @media screen and (max-width: 770px) {
+    font-size: 30px;
+  }
+
+  @media screen and (max-width: 500px) {
+    font-size: 25px;
+  }
+
+  @media screen and (max-width: 400px) {
     font-size: 20px;
   }
 `;
 
-export const Media = styled.video`
+export const Media = styled.img`
   margin-top: 10px;
   margin-right: 20px;
+  margin-left: 20px;
   float: right;
   background: #dcdcdc;
   width: 50%;
