@@ -6,7 +6,7 @@ import { SocialIconLink} from './TopNav.elements';
 
 function TopNav() {
   return (
-    <Navbar expand="lg" style={{ background: '#1D1A1A', textAlign: 'center' }} >
+    <Navbar collapseOnSelect expand="lg" sticky="top" style={{ background: '#1D1A1A', textAlign: 'center', position: 'sticky' }} >
       <Container>
         <Navbar.Brand href="/" style={{ color: '#ffffff' }}>Everyone Learns Crypto</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" style={{ color: '#ffffff' }}/>
