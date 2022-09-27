@@ -17,7 +17,7 @@ export const missionObjThree = {
 };
 
 export const missionObjFour = {
-  sectionText: "Our goal is to provide step-by-step walkthroughs to help the least savvy user.",
+  sectionText: "Our goal is to provide step-by-step walkthroughs to help guide new users.",
   media: "images/homepage/thinking-person.webp",
   alt: 'A person thinking and sitting at a desk with a laptop and two computer screens'
 };
