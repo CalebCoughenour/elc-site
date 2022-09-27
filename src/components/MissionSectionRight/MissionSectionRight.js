@@ -18,7 +18,7 @@ const MissionSectionRight = ({ sectionText, media, alt }) => {
         <MissionSec>          
           <Container>
             <div data-aos='fade-right'>
-              <Card style={{ background: '#383232', padding: '100px' }}>
+              <Card style={{ background: '#383232', padding: '100px', borderLeft: 'none', borderRight: 'none', borderRadius: '0px' }}>
                 <Row>
                   <Col md={true}>
                     <MissionTextSection style={{ position: 'relative'}}>
