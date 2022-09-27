@@ -36,7 +36,25 @@ export const MissionText = styled.h1`
   font-size: 55px;
   text-align: center;
   color: #DCDCDE;
+  
+
+  @media screen and (max-width: 1200px) {
+    font-size: 45px;
+  }
+
+  @media screen and (max-width: 1000px) {
+    font-size: 40px;
+  }
+
   @media screen and (max-width: 770px) {
+    font-size: 30px;
+  }
+
+  @media screen and (max-width: 500px) {
+    font-size: 25px;
+  }
+
+  @media screen and (max-width: 400px) {
     font-size: 20px;
   }
 `;
