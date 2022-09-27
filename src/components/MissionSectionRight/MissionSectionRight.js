@@ -7,7 +7,7 @@ import Card from "react-bootstrap/Card";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
-const MissionSectionRight = ({ sectionText, media }) => {
+const MissionSectionRight = ({ sectionText, media, alt }) => {
 
   useEffect(() => {
     Aos.init({ duration: 1000 });
@@ -17,22 +17,22 @@ const MissionSectionRight = ({ sectionText, media }) => {
     <>
         <MissionSec>          
           <Container>
-           <div data-aos='fade-right'>
-            <Card style={{ background: '#383232', padding: '100px 0px', border: 'none' }}>
-              <Row>
-                <Col md={true}>
-                  <MissionTextSection style={{ position: 'relative'}}>
-                    <Container>                 
-                      <Media src={media} autoPlay muted loop />
-                      <MissionText>
-                        {sectionText}
-                      </MissionText>
-                    </Container>
-                  </MissionTextSection>
-                </Col>  
-              </Row>
-            </Card>
-           </div>
+            <div data-aos='fade-right'>
+              <Card style={{ background: '#383232', padding: '100px' }}>
+                <Row>
+                  <Col md={true}>
+                    <MissionTextSection style={{ position: 'relative'}}>
+                      <Container>                 
+                        <Media src={media} alt={alt} autoPlay muted loop />
+                        <MissionText>
+                          {sectionText}
+                        </MissionText>
+                      </Container>
+                    </MissionTextSection>
+                  </Col>  
+                </Row>
+              </Card>
+            </div>
           </Container>
       </MissionSec>
     </>
