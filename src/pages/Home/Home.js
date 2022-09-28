@@ -1,6 +1,6 @@
 import React from 'react';
 import  { missionObjOne, missionObjTwo, missionObjThree, missionObjFour } from './Data';
-import { BannerSection, MissionSection, MissionSectionRight } from '../../components';
+import { BannerSection, MissionSection, MissionSectionRight, HomeVideoSection } from '../../components';
 
 
 const Home = () => {
@@ -13,6 +13,7 @@ const Home = () => {
         <MissionSection {...missionObjThree} />
         <MissionSectionRight {...missionObjFour} />
       </div>
+      <HomeVideoSection />
     </>
   )
 }
