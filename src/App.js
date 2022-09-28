@@ -11,9 +11,9 @@ function App() {
         <TopNav />
         <Routes>
           <Route path='/' exact element={<Home />} />
-          <Route path='/videos' exact element={<Videos />} />
-          <Route path='/research' exact element={<Research />} />
-          <Route path='/news' exact element={<News />} />
+          <Route path='/videos' element={<Videos />} />
+          <Route path='/research' element={<Research />} />
+          <Route path='/news' element={<News />} />
         </Routes>
         <Footer />
       </Router>
