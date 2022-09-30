@@ -17,7 +17,7 @@ export const missionObjThree = {
 };
 
 export const missionObjFour = {
-  sectionText: "ELC provides easy to understand walkthroughs and guides to help new users learn",
+  sectionText: "We provide easy to understand walkthroughs and guides to help new users learn",
   media: "images/homepage/thinking-person.webp",
   alt: 'A person thinking and sitting at a desk with a laptop and two computer screens'
 };
