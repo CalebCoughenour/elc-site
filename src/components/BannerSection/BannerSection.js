@@ -2,11 +2,11 @@ import React from 'react';
 import { BannerImg, BannerSec } from './BannerSection.elements';
 
 
-const BannerSection = () => {
+const BannerSection = ({ bannerSRC, bannerAlt }) => {
   return (
     <>
       <BannerSec>
-        <BannerImg src='images/homepage/elc-banner.webp' alt="Everyone Loves Crypto Banner" />
+        <BannerImg src={bannerSRC} alt={bannerAlt}/>
       </BannerSec>
     </>
   );
