@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import { Home, Videos, Research, News } from "./pages";
-import { TopNav, Footer } from "./components";
+import { TopNav, Footer, BackToTopButton } from "./components";
 import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
@@ -15,6 +15,7 @@ function App() {
           <Route path='/research' element={<Research />} />
           <Route path='/news' element={<News />} />
         </Routes>
+        <BackToTopButton />
         <Footer />
       </Router>
     </>
