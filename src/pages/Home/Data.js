@@ -21,3 +21,8 @@ export const missionObjFour = {
   media: "images/homepage/thinking-person.webp",
   alt: 'A person thinking and sitting at a desk with a laptop and two computer screens'
 };
+
+export const  bannerObj = {
+  bannerSRC: 'images/homepage/elc-banner.webp',
+  bannerAlt: 'Everyone Loves Crypto Banner'
+};
