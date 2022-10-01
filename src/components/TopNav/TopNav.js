@@ -6,12 +6,12 @@ import { SocialIconLink} from './TopNav.elements';
 
 function TopNav() {
   return (
-    <Navbar collapseOnSelect expand="lg" sticky="top" style={{ background: '#1D1A1A', textAlign: 'center', position: 'sticky' }} >
+    <Navbar collapseOnSelect expand="lg" fixed="top" style={{ background: '#1D1A1A', textAlign: 'center' }} >
       <Container>
         <Navbar.Brand href="/" style={{ color: '#ffffff' }}>Everyone Learns Crypto</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" style={{ color: '#ffffff' }}/>
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="me-auto" >
             <Nav.Link href="/" style={{ color: '#ffffff' }}>Home</Nav.Link>
             <Nav.Link href="/videos" style={{ color: '#ffffff' }}>Videos</Nav.Link>
             <Nav.Link href="/research" style={{ color: '#ffffff' }}>Research</Nav.Link>
