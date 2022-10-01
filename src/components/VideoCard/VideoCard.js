@@ -15,7 +15,7 @@ const VideoCard = (props) => {
           <CardTitle>{props.cardTitle}</CardTitle>
           <Link to={props.linkPath}>
             <CardButton className='card-link-button'>
-              BROWSE
+              VIEW
             </CardButton>
           </Link>
         </CardText>
@@ -27,7 +27,7 @@ const VideoCard = (props) => {
 VideoCard.propTypes = {
   cardImg: PropTypes.string,
   cardImgAlt: PropTypes.string,
-  cardTitle: PropTypes.string,
+  cardTitle: PropTypes.propsstring,
   linkPath: PropTypes.string
 };
 
