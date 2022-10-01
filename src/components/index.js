@@ -6,4 +6,5 @@ export { default as MissionSectionRight } from './MissionSectionRight/MissionSec
 export { default as HomeVideoSection } from './HomeVideoSection/HomeVideoSection';
 export { default as BackToTopButton } from './BackToTopButton';
 export { default as VideoCardSection } from './VideoCardSection/VideoCardSection';
-export { default as Sidebar } from './Sidebar/Sidebar';
+export { default as ResearchTabs } from './ResearchTabs/ResearchTabs';
+export { default as ResearchCard } from './ResearchCard/ResearchCard';
