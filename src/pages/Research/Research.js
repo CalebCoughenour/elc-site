@@ -1,11 +1,11 @@
 import React from 'react';
-import { Sidebar } from '../../components';
+import { ResearchTabs } from '../../components';
 import TestComponent from '../../components/TestComponent';
 
 const Research = () => {
   return (
     <>
-      <TestComponent />
+      <ResearchTabs />
     </>
   )
 }
