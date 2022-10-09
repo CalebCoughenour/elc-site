@@ -27,7 +27,7 @@ const VideoCard = (props) => {
 VideoCard.propTypes = {
   cardImg: PropTypes.string,
   cardImgAlt: PropTypes.string,
-  cardTitle: PropTypes.propsstring,
+  cardTitle: PropTypes.string,
   linkPath: PropTypes.string
 };
 
