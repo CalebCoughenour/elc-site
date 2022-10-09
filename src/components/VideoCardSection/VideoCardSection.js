@@ -26,7 +26,7 @@ const CardLinkSection = () => {
                       cardImgAlt='A couch and chair with lights dangling above'
                       cardTitle='Wallets'
                       cardSubText='Take A Look At All The Different Styles'
-                      linkPath='/designs'
+                      linkPath='/'
                     />
                   </Col>
                   <Col lg={true}>
@@ -35,16 +35,16 @@ const CardLinkSection = () => {
                       cardImgAlt='A couch that is covered in pillows, with pillows overflowing on to the floor and rug'
                       cardTitle='DeFi'
                       cardSubText='Pillows, Lighting, Decor & More!'
-                      linkPath='/accessories'
+                      linkPath='/'
                     />
                   </Col>
                   <Col lg={true}>
                     <VideoCard 
                       cardImg=''
                       cardImgAlt='A pink couch with decorative throw pillows and a mirrow hanging above'
-                      cardTitle='Project Specific'
+                      cardTitle='Projects'
                       cardSubText='Bedroom, Living Room, Dining Room'
-                      linkPath='/sets'
+                      linkPath='/'
                     />
                   </Col>
                 </Row>
@@ -55,7 +55,7 @@ const CardLinkSection = () => {
                       cardImgAlt='A couch and chair with lights dangling above'
                       cardTitle='Wallets'
                       cardSubText='Take A Look At All The Different Styles'
-                      linkPath='/designs'
+                      linkPath='/'
                     />
                   </Col>
                   <Col lg={true}>
@@ -64,16 +64,16 @@ const CardLinkSection = () => {
                       cardImgAlt='A couch that is covered in pillows, with pillows overflowing on to the floor and rug'
                       cardTitle='DeFi'
                       cardSubText='Pillows, Lighting, Decor & More!'
-                      linkPath='/accessories'
+                      linkPath='/'
                     />
                   </Col>
                   <Col lg={true}>
                     <VideoCard 
                       cardImg=''
                       cardImgAlt='A pink couch with decorative throw pillows and a mirrow hanging above'
-                      cardTitle='Project Specific'
+                      cardTitle='Projects'
                       cardSubText='Bedroom, Living Room, Dining Room'
-                      linkPath='/sets'
+                      linkPath='/'
                     />
                   </Col>
                 </Row>
@@ -88,7 +88,7 @@ const CardLinkSection = () => {
                         cardImgAlt='A couch and chair with lights dangling above'
                         cardTitle='Wallets'
                         cardSubText='Take A Look At All The Different Styles'
-                        linkPath='/designs'
+                        linkPath='/'
                       />
                     </Col>
                     <Col lg={true}>
@@ -97,16 +97,16 @@ const CardLinkSection = () => {
                         cardImgAlt='A couch that is covered in pillows, with pillows overflowing on to the floor and rug'
                         cardTitle='DeFi'
                         cardSubText='Pillows, Lighting, Decor & More!'
-                        linkPath='/accessories'
+                        linkPath='/'
                       />
                     </Col>
                     <Col lg={true}>
                       <VideoCard 
                         cardImg=''
                         cardImgAlt='A pink couch with decorative throw pillows and a mirrow hanging above'
-                        cardTitle='Project Specific'
+                        cardTitle='Projects'
                         cardSubText='Bedroom, Living Room, Dining Room'
-                        linkPath='/sets'
+                        linkPath='/'
                       />
                     </Col>
                   </Row>
@@ -121,7 +121,7 @@ const CardLinkSection = () => {
                         cardImgAlt='A couch and chair with lights dangling above'
                         cardTitle='Wallets'
                         cardSubText='Take A Look At All The Different Styles'
-                        linkPath='/designs'
+                        linkPath='/'
                       />
                     </Col>
                     <Col lg={true}>
@@ -130,16 +130,16 @@ const CardLinkSection = () => {
                         cardImgAlt='A couch that is covered in pillows, with pillows overflowing on to the floor and rug'
                         cardTitle='DeFi'
                         cardSubText='Pillows, Lighting, Decor & More!'
-                        linkPath='/accessories'
+                        linkPath='/'
                       />
                     </Col>
                     <Col lg={true}>
                       <VideoCard 
                         cardImg=''
                         cardImgAlt='A pink couch with decorative throw pillows and a mirrow hanging above'
-                        cardTitle='Project Specific'
+                        cardTitle='Projects'
                         cardSubText='Bedroom, Living Room, Dining Room'
-                        linkPath='/sets'
+                        linkPath='/'
                       />
                     </Col>
                   </Row>
