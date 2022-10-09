@@ -11,7 +11,7 @@ const ResearchTabs = () => {
   return(
     <>
       <TabsSection>
-        <Tab.Container defaultactivekey="first">
+        <Tab.Container defaultActiveKey="first">
           <Row>
             <Col sm={3}>
               <Nav variant="pills" className="flex-column">
