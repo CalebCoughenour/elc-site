@@ -13,6 +13,26 @@ width: 660px;
   height: 300px;
   width: 500px;
 }
+
+@media screen and (max-width: 550px) {
+  height: 200px;
+  width: 400px;
+}
+
+@media screen and (max-width: 456px) {
+  height: 150px;
+  width: 330px;
+}
+
+@media screen and (max-width: 370px) {
+  height: 130px;
+  width: 280px;
+}
+
+@media screen and (max-width: 325px) {
+  height: 100px;
+  width: 235px;
+}
 `;
 
 export const VideoButton = styled.button`
