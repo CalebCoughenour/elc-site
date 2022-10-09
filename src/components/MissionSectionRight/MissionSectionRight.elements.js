@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const MissionSec = styled.div`
   background: #383232;
   padding: 50px 0px;
+  overflow: hidden;
 
   @media screen and (max-width: 400px) {
     padding: 0px 0px;
