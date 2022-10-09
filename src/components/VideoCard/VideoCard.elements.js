@@ -32,17 +32,28 @@ export const CardText = styled.div`
   text-align: center;
   font-family: Georgia, serif;
   color: #fff;
+
+
   @media screen and (min-width: 1200px) {
     &:hover {
       transition: color .3s ease-in-out;
       color: lightgray;
     } 
-  }
+
+  
 `;
 
 export const CardTitle =  styled.h1`
-  font-size: 2em;
+  font-size: 3em;
   font-weight: 900;
+
+  @media screen and (max-width: 1200px) {
+    font-size: 2.5em;
+  }
+
+  @media screen and (max-width: 285px) {
+    font-size: 1.5em;
+  }
 `;
 
 export const CardButton = styled.button`
@@ -57,6 +68,10 @@ export const CardButton = styled.button`
   color: #fff;
 @media screen and (max-width: 960px) {
   width: 100%;
+}
+
+@media screen and (max-width: 335px){
+  margin-top: 10px;
 }
 `;
 
